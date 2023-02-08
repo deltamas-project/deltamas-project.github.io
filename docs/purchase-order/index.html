@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="How to use Purchase Order? #  🎉 Announcement! Purchase Order is released in version 1.0.128.  Apa itu Purchase Order? Purchase Order adalah aplikasi berbasis web yang digunakan untuk pembelian barang melalui vendor. Aplikasi ini masih tahap pengembangan yang dimana sewaktu-waktu bisa berubah logika dan algoritmanya.
+Vendors #  Apa itu Vendors? Vendors merupakan penyedia atau penjual yang tersedia di menu aplikasi Purchase Order. Jika tidak ada Data Vendor, maka Purchase Order tidak bisa digunakan sepenuhnya.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="How to use Purchase Order?" />
+<meta property="og:description" content="How to use Purchase Order? #  🎉 Announcement! Purchase Order is released in version 1.0.128.  Apa itu Purchase Order? Purchase Order adalah aplikasi berbasis web yang digunakan untuk pembelian barang melalui vendor. Aplikasi ini masih tahap pengembangan yang dimana sewaktu-waktu bisa berubah logika dan algoritmanya.
+Vendors #  Apa itu Vendors? Vendors merupakan penyedia atau penjual yang tersedia di menu aplikasi Purchase Order. Jika tidak ada Data Vendor, maka Purchase Order tidak bisa digunakan sepenuhnya." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/docs/purchase-order/" />
+
+<title>How to use Purchase Order? | Deltamas Wiki</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.a64c3fbabd2c7a93ee90dd37db9054580fcb37b8eef93f80b6fa286b030f64af.css" integrity="sha256-pkw/ur0sepPukN0325BUWA/LN7ju&#43;T&#43;AtvooawMPZK8=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.b0a3a8ac2e0bd5b8ddcfb9ff1197308e40ed5fe86ebdc0b77d26ab8b6128f353.js" integrity="sha256-sKOorC4L1bjdz7n/EZcwjkDtX&#43;huvcC3fSari2Eo81M=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Deltamas Wiki</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/introduction/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/purchase-order/" class="active">How to use Purchase Order?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>How to use Purchase Order?</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#vendors">Vendors</a>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#flowchart">Flowchart</a></li>
+        <li><a href="#structure-table">Structure Table</a></li>
+        <li><a href="#structure-file">Structure File</a></li>
+      </ul>
+    </li>
+    <li><a href="#proposal-or-purchase-requests">Proposal or Purchase Requests</a>
+      <ul>
+        <li><a href="#features-1">Features</a></li>
+        <li><a href="#flowchart-1">Flowchart</a></li>
+        <li><a href="#structure-table-1">Structure Table</a></li>
+        <li><a href="#structure-file-1">Structure File</a></li>
+      </ul>
+    </li>
+    <li><a href="#purchase-order">Purchase Order</a>
+      <ul>
+        <li><a href="#features-2">Features</a></li>
+        <li><a href="#flowchart-2">Flowchart</a></li>
+        <li><a href="#structure-table-2">Structure Table</a></li>
+        <li><a href="#structure-file-2">Structure File</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="how-to-use-purchase-order">
+  How to use Purchase Order?
+  <a class="anchor" href="#how-to-use-purchase-order">#</a>
+</h1>
+<p><img src="/images/purchase-order.png" alt="Introduction" /></p>
+<blockquote class="book-hint warning">
+  🎉 Announcement! Purchase Order is released in version 1.0.128.
+</blockquote>
+
+<p>Apa itu Purchase Order? Purchase Order adalah aplikasi berbasis web yang digunakan untuk pembelian barang melalui vendor. Aplikasi ini masih tahap pengembangan yang dimana sewaktu-waktu bisa berubah logika dan algoritmanya.</p>
+<h2 id="vendors">
+  Vendors
+  <a class="anchor" href="#vendors">#</a>
+</h2>
+<p>Apa itu Vendors? Vendors merupakan penyedia atau penjual yang tersedia di menu aplikasi Purchase Order. Jika tidak ada Data Vendor, maka Purchase Order tidak bisa digunakan sepenuhnya.</p>
+<h3 id="features">
+  Features
+  <a class="anchor" href="#features">#</a>
+</h3>
+<ol>
+<li>Menambahkan Data Vendor dengan field yang telah disediakan seperti :
+<ul>
+<li>Nama Perusahaan</li>
+<li>Jenis Bidang Usaha</li>
+<li>NPWP</li>
+<li>Alamat</li>
+<li>Nama Penjual</li>
+<li>Nomor Telepon</li>
+<li>Nomor Telepon Kantor</li>
+<li>Alamat Email</li>
+</ul>
+</li>
+<li>Mengedit Data Vendor yang telah di input sebelumnya.</li>
+<li>Menambahkan dan Menghapus Data Vendor Pricelist seperti :
+<ul>
+<li>Nama Barang</li>
+<li>Jumlah Barang</li>
+<li>Satuan Barang</li>
+<li>Harga Barang</li>
+<li>Diskon</li>
+<li>PPN</li>
+</ul>
+</li>
+</ol>
+<h3 id="flowchart">
+  Flowchart
+  <a class="anchor" href="#flowchart">#</a>
+</h3>
+<p><img src="/images/flowchart-vendor.png" alt="Flowchart Vendor" /></p>
+<h3 id="structure-table">
+  Structure Table
+  <a class="anchor" href="#structure-table">#</a>
+</h3>
+<p><img src="/images/table-vendor.png" alt="Structure Table Vendor" /></p>
+<h3 id="structure-file">
+  Structure File
+  <a class="anchor" href="#structure-file">#</a>
+</h3>
+<pre><code>app/
+├── Controllers/
+│   └── VendorsController.php
+|   └── VendorPricelistsController.php
+├── Models/
+|   └── VendorsModel.php
+|   └── VendorPricelistsModel.php
+|   └── ItemUnitsModel.php
+|   └── TypeOfBusinessesModel.php
+├── Migrations/
+|   └── *_Vendors.php
+|   └── *_VendorPricelists.php
+|   └── *_ItemUnits.php
+|   └── *_TypeOfBusinesses.php
+└── Seeds/
+    └── ItemUnits.php
+    └── TypeOfBusinesses.php
+</code></pre><h2 id="proposal-or-purchase-requests">
+  Proposal or Purchase Requests
+  <a class="anchor" href="#proposal-or-purchase-requests">#</a>
+</h2>
+<p>Apa itu Proposal atau Purchase Requests? Proposal atau Purchase Requests merupakan pengajuan pembelian barang yang ada di Data Vendor.</p>
+<h3 id="features-1">
+  Features
+  <a class="anchor" href="#features-1">#</a>
+</h3>
+<ol>
+<li>Melakukan pengajuan pembelian barang melalui Vendor yang tersedia.</li>
+<li>Memilih barang yang ada di Data Vendor Pricelist.</li>
+<li>Menginput Jumlah Barang, Satuan Barang, menjumlahkan total harga barang, dan lain-lain.</li>
+</ol>
+<h3 id="flowchart-1">
+  Flowchart
+  <a class="anchor" href="#flowchart-1">#</a>
+</h3>
+<p><img src="/images/flowchart-purchase-request.png" alt="Flowchart Purchase Requests" /></p>
+<h3 id="structure-table-1">
+  Structure Table
+  <a class="anchor" href="#structure-table-1">#</a>
+</h3>
+<p><img src="/images/table-purchase-request.png" alt="Structure Table Purchase Requests" /></p>
+<h3 id="structure-file-1">
+  Structure File
+  <a class="anchor" href="#structure-file-1">#</a>
+</h3>
+<pre><code>app/
+├── Controllers/
+│   └── ProposalsController.php
+|   └── ProposalProductsController.php
+├── Models/
+|   └── ProposalsModel.php
+|   └── ProposalProductsModel.php
+└── Migrations/
+    └── *_Proposals.php
+    └── *_ProposalProducts.php
+</code></pre><h2 id="purchase-order">
+  Purchase Order
+  <a class="anchor" href="#purchase-order">#</a>
+</h2>
+<p>Apa itu Purchase Order? Purchase Order merupakan sebuah proses lanjutan dari pengajuan proposal atau Purchase Requests.</p>
+<h3 id="features-2">
+  Features
+  <a class="anchor" href="#features-2">#</a>
+</h3>
+<ol>
+<li>Melakukan proses lanjutan dari pengajuan proposal atau Purchase Request menjadi Purchase Order.</li>
+<li>Mengatur estimasi pengiriman, dan status Purchase Order.</li>
+</ol>
+<h3 id="flowchart-2">
+  Flowchart
+  <a class="anchor" href="#flowchart-2">#</a>
+</h3>
+<p><img src="/images/flowchart-purchase-order.png" alt="Flowchart Purchase Orders" /></p>
+<h3 id="structure-table-2">
+  Structure Table
+  <a class="anchor" href="#structure-table-2">#</a>
+</h3>
+<p><img src="/images/table-purchase-order.png" alt="Structure Table Purchase Orders" /></p>
+<h3 id="structure-file-2">
+  Structure File
+  <a class="anchor" href="#structure-file-2">#</a>
+</h3>
+<pre><code>app/
+├── Controllers/
+│   └── PurchaseOrdersController.php
+├── Models/
+|   └── PurchaseOrdersModel.php
+|   └── PurchaseOrderStatusesModel.php
+└── Migrations/
+    └── *_PurchaseOrders.php
+    └── *_PurchaseOrderStatuses.php
+</code></pre></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){if(window.getSelection().toString()){return;}
+select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#vendors">Vendors</a>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#flowchart">Flowchart</a></li>
+        <li><a href="#structure-table">Structure Table</a></li>
+        <li><a href="#structure-file">Structure File</a></li>
+      </ul>
+    </li>
+    <li><a href="#proposal-or-purchase-requests">Proposal or Purchase Requests</a>
+      <ul>
+        <li><a href="#features-1">Features</a></li>
+        <li><a href="#flowchart-1">Flowchart</a></li>
+        <li><a href="#structure-table-1">Structure Table</a></li>
+        <li><a href="#structure-file-1">Structure File</a></li>
+      </ul>
+    </li>
+    <li><a href="#purchase-order">Purchase Order</a>
+      <ul>
+        <li><a href="#features-2">Features</a></li>
+        <li><a href="#flowchart-2">Flowchart</a></li>
+        <li><a href="#structure-table-2">Structure Table</a></li>
+        <li><a href="#structure-file-2">Structure File</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

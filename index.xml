@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Deltamas Wiki</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Deltamas Wiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:1313/docs/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/introduction/</guid>
+      <description>Introduction #  🎉 Kabar gembira untuk kita semua! Akhirnya kita punya Wiki sendiri yang dibangun diatas framework Hugo! Kenapa sih kita pake Hugo? dan apa sih keuntungannya kalau kita pake Hugo ini? Bukannya Hugo itu nama film ya?
+Hugo! adalah sebuah framework yang bisa kita gunakan untuk membuat web dengan bahasa markdown, Kamu banyangin aja text aneh bisa jadi web, itukan aneh banget. Tapi walaupun ini aneh banget, ini juga keren lho.</description>
+    </item>
+    
+    <item>
+      <title>How to use Purchase Order?</title>
+      <link>http://localhost:1313/docs/purchase-order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/purchase-order/</guid>
+      <description>How to use Purchase Order? #  🎉 Announcement! Purchase Order is released in version 1.0.128.  Apa itu Purchase Order? Purchase Order adalah aplikasi berbasis web yang digunakan untuk pembelian barang melalui vendor. Aplikasi ini masih tahap pengembangan yang dimana sewaktu-waktu bisa berubah logika dan algoritmanya.
+Vendors #  Apa itu Vendors? Vendors merupakan penyedia atau penjual yang tersedia di menu aplikasi Purchase Order. Jika tidak ada Data Vendor, maka Purchase Order tidak bisa digunakan sepenuhnya.</description>
+    </item>
+    
+  </channel>
+</rss>
