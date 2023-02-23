@@ -12,8 +12,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/docs/introduction/</guid>
-      <description>Introduction #  🎉 Kabar gembira untuk kita semua! Akhirnya kita punya Wiki sendiri yang dibangun diatas framework Hugo! Kenapa sih kita pake Hugo? dan apa sih keuntungannya kalau kita pake Hugo ini? Bukannya Hugo itu nama film ya?
+      <description>🎉 Kabar gembira untuk kita semua! Akhirnya kita punya Wiki sendiri yang dibangun diatas framework Hugo! Kenapa sih kita pake Hugo? dan apa sih keuntungannya kalau kita pake Hugo ini? Bukannya Hugo itu nama film ya?
 Hugo! adalah sebuah framework yang bisa kita gunakan untuk membuat web dengan bahasa markdown, Kamu banyangin aja text aneh bisa jadi web, itukan aneh banget. Tapi walaupun ini aneh banget, ini juga keren lho.</description>
+    </item>
+    
+    <item>
+      <title>How to use Passport</title>
+      <link>http://localhost:1313/docs/passport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/passport/</guid>
+      <description>🎉 Announcement! Passport is released in version 1.1.128. Apa itu Passport? Passport adalah Single Sign On (SSO) yang dibuat untuk jalur masuk ke semua aplikasi yang dibangun diatas framework CodeIgniter. Masih banyak kekurangan untuk Passport ini. Kedepannya, metode ini akan dirubah ke metode JWT.
+Bagaimana metode JWT tersebut?
+Jadi penjelasan simplenya&amp;hellip;
+Pengguna login ke Passport. Lalu, Jika login berhasil dan akan mendapatkan JWT yang tersimpan di browser pengguna. Aplikasi yang berbeda akan mengakses JWT tersebut.</description>
     </item>
     
     <item>
@@ -22,8 +34,29 @@ Hugo! adalah sebuah framework yang bisa kita gunakan untuk membuat web dengan ba
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/docs/purchase-order/</guid>
-      <description>How to use Purchase Order? #  🎉 Announcement! Purchase Order is released in version 1.0.128.  Apa itu Purchase Order? Purchase Order adalah aplikasi berbasis web yang digunakan untuk pembelian barang melalui vendor. Aplikasi ini masih tahap pengembangan yang dimana sewaktu-waktu bisa berubah logika dan algoritmanya.
-Vendors #  Apa itu Vendors? Vendors merupakan penyedia atau penjual yang tersedia di menu aplikasi Purchase Order. Jika tidak ada Data Vendor, maka Purchase Order tidak bisa digunakan sepenuhnya.</description>
+      <description>🎉 Announcement! Purchase Order is released in version 1.0.128. Apa itu Purchase Order? Purchase Order adalah aplikasi berbasis web yang digunakan untuk pembelian barang melalui vendor. Aplikasi ini masih tahap pengembangan yang dimana sewaktu-waktu bisa berubah logika dan algoritmanya.
+Vendors # Apa itu Vendors? Vendors merupakan penyedia atau penjual yang tersedia di menu aplikasi Purchase Order. Jika tidak ada Data Vendor, maka Purchase Order tidak bisa digunakan sepenuhnya.
+Features # Menambahkan Data Vendor dengan field yang telah disediakan seperti : Nama Perusahaan Jenis Bidang Usaha NPWP Alamat Nama Penjual Nomor Telepon Nomor Telepon Kantor Alamat Email Mengedit Data Vendor yang telah di input sebelumnya.</description>
+    </item>
+    
+    <item>
+      <title>How to use Inventory Management?</title>
+      <link>http://localhost:1313/docs/inventory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/inventory/</guid>
+      <description>🎉 Announcement! Inventory Management is released in version 1.0.13. Apa itu Inventory Management? Inventory Management adalah aplikasi berbasis web yawng digunakan untuk managemen barang inventaris. Aplikasi ini masih tahap pengembangan yang dimana sewaktu-waktu bisa berubah logika dan algoritmanya.
+Inventory # Apa itu Inventory? Inventory merupakan menu penyimpanan barang yang tersedia di aplikasi Inventory Management. Jika tidak ada Data Inventaris, maka Inventory Management tidak bisa digunakan sepenuhnya.
+Features # Menambahkan Data Inventaris dengan field yang telah disediakan seperti : Nama Barang Jenis Barang Status Barang Deskripsi Foto Barang (Akan muncul, Jika barang tersebut terhubung ke Data Pegawai.</description>
+    </item>
+    
+    <item>
+      <title>How to use Human Resource Management System</title>
+      <link>http://localhost:1313/docs/hrms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/hrms/</guid>
+      <description>Sedang dalam proses, karena banyak sekali relasi dan codingannya.</description>
     </item>
     
   </channel>

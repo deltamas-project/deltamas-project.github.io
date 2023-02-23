@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
 <head>
-	<meta name="generator" content="Hugo 0.110.0">
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Deltamas Wiki # The world’s fastest framework for building websites
-Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.">
+<meta name="description" content="🎉 Announcement! Passport is released in version 1.1.128. Apa itu Passport? Passport adalah Single Sign On (SSO) yang dibuat untuk jalur masuk ke semua aplikasi yang dibangun diatas framework CodeIgniter. Masih banyak kekurangan untuk Passport ini. Kedepannya, metode ini akan dirubah ke metode JWT.
+Bagaimana metode JWT tersebut?
+Jadi penjelasan simplenya&hellip;
+Pengguna login ke Passport. Lalu, Jika login berhasil dan akan mendapatkan JWT yang tersimpan di browser pengguna. Aplikasi yang berbeda akan mengakses JWT tersebut.">
 <meta name="theme-color" content="#FFFFFF">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="Home" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/" />
-<title>Home | Deltamas Wiki</title>
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="How to use Passport" />
+<meta property="og:description" content="🎉 Announcement! Passport is released in version 1.1.128. Apa itu Passport? Passport adalah Single Sign On (SSO) yang dibuat untuk jalur masuk ke semua aplikasi yang dibangun diatas framework CodeIgniter. Masih banyak kekurangan untuk Passport ini. Kedepannya, metode ini akan dirubah ke metode JWT.
+Bagaimana metode JWT tersebut?
+Jadi penjelasan simplenya&hellip;
+Pengguna login ke Passport. Lalu, Jika login berhasil dan akan mendapatkan JWT yang tersimpan di browser pengguna. Aplikasi yang berbeda akan mengakses JWT tersebut." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/docs/passport/" /><meta property="article:section" content="docs" />
+
+
+<title>How to use Passport | Deltamas Wiki</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
   <script defer src="/en.search.min.ce01b2b93f97db8bd67148013f8d9648a1ff1ab9f05dd0cdcc28a20a999b5434.js" integrity="sha256-zgGyuT&#43;X24vWcUgBP42WSKH/GrnwXdDNzCiiCpmbVDQ=" crossorigin="anonymous"></script>
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="Deltamas Wiki" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -82,7 +87,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/passport/" class="">How to use Passport</a>
+    <a href="/docs/passport/" class="active">How to use Passport</a>
   
 
         </li>
@@ -163,7 +168,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Home</strong>
+  <strong>How to use Passport</strong>
 
   <label for="toc-control">
     
@@ -188,12 +193,24 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="deltamas-wiki">
-  Deltamas Wiki
-  <a class="anchor" href="#deltamas-wiki">#</a>
-</h1>
-<p><strong>The world’s fastest framework for building websites</strong></p>
-<p>Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.</p>
+  <article class="markdown"><p><img src="/images/passport.png" alt="Passport" /></p>
+<blockquote class="book-hint warning">
+  🎉 Announcement! Passport is released in version 1.1.128.
+</blockquote>
+
+<p>Apa itu Passport? Passport adalah Single Sign On (SSO) yang dibuat untuk jalur masuk ke semua aplikasi yang dibangun diatas framework CodeIgniter. Masih banyak kekurangan untuk Passport ini. Kedepannya, metode ini akan dirubah ke metode JWT.</p>
+<blockquote>
+<p>Bagaimana metode JWT tersebut?</p>
+</blockquote>
+<p><img src="/images/metode-jwt.png" alt="Metode JWT" /></p>
+<p>Jadi penjelasan simplenya&hellip;</p>
+<ol>
+<li>Pengguna login ke Passport.</li>
+<li>Lalu, Jika login berhasil dan akan mendapatkan JWT yang tersimpan di browser pengguna.</li>
+<li>Aplikasi yang berbeda akan mengakses JWT tersebut.</li>
+<li>Pengguna tidak memerlukan login ke aplikasi yang berbeda.</li>
+</ol>
+<p>Saat ini, Passport menyimpan semua sesi data user ke database bukan ke browser pengguna.</p>
 </article>
  
       
