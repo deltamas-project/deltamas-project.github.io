@@ -59,5 +59,14 @@ Features # Menambahkan Data Inventaris dengan field yang telah disediakan sepert
       <description>Sedang dalam proses, karena banyak sekali relasi dan codingannya.</description>
     </item>
     
+    <item>
+      <title>E Recruitment</title>
+      <link>http://localhost:1313/docs/e-recruitment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/e-recruitment/</guid>
+      <description>Sedang dalam proses, karena banyak sekali relasi dan codingannya.</description>
+    </item>
+    
   </channel>
 </rss>
