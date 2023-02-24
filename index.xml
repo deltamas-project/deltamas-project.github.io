@@ -17,7 +17,7 @@ Hugo! adalah sebuah framework yang bisa kita gunakan untuk membuat web dengan ba
     </item>
     
     <item>
-      <title>How to use Passport</title>
+      <title>Passport</title>
       <link>http://localhost:1313/docs/passport/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -29,7 +29,7 @@ Pengguna login ke Passport. Lalu, Jika login berhasil dan akan mendapatkan JWT y
     </item>
     
     <item>
-      <title>How to use Purchase Order?</title>
+      <title>Purchase Order</title>
       <link>http://localhost:1313/docs/purchase-order/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -40,7 +40,7 @@ Features # Menambahkan Data Vendor dengan field yang telah disediakan seperti : 
     </item>
     
     <item>
-      <title>How to use Inventory Management?</title>
+      <title>Inventory Management</title>
       <link>http://localhost:1313/docs/inventory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -51,7 +51,7 @@ Features # Menambahkan Data Inventaris dengan field yang telah disediakan sepert
     </item>
     
     <item>
-      <title>How to use Human Resource Management System</title>
+      <title>Human Resource Management System</title>
       <link>http://localhost:1313/docs/hrms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
