@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deltamas Apps</title>
+  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<style>
+  .card {
+    width: 32rem;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .card .card-body {
+    font-size: 14px;
+    color: dimgrey;
+  }
+
+  img {
+    width: 125px;
+  }
+</style>
+
+<body class="bg-light vh-100 d-flex justify-content-center align-items-center">
+  <div class="container">
+    <div class="row my-5">
+      <div class="col-12 d-flex justify-content-center mb-3">
+        <img src="./icons/app.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <div class="card border-0">
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between">
+                  <div class="">
+                    Package Name :
+                  </div>
+                  <div class="">
+                    E-Absensi Mobile
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between">
+                  <div class="">
+                    Published by :
+                  </div>
+                  <div class="">
+                    Team IT
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between">
+                  <div class="">
+                    Last Updated :
+                  </div>
+                  <div class="">
+                    12-05-2023 00:00:00
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between">
+                  <div class="">
+                    App Version :
+                  </div>
+                  <div class="">
+                    1.0.0
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between">
+                  <div class="">
+                    Status :
+                  </div>
+                  <div class="">
+                    <span class="badge bg-success">
+                      Available
+                    </span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="d-flex justify-content-center mt-3">
+              <div class="gap-1">
+                <button class="btn btn-sm btn-light" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">Information</button>
+                <button class="btn btn-sm btn-primary" id="download">Download</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <div class="small text-muted text-center mt-3">
+          Development by Team IT - PT. Deltamas Surya Indah Mulia
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title" id="exampleModalLabel">Informasi Aplikasi</div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul class="small">
+            <li>Belum ada informasi.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    const downlaodButton = document.querySelector('#download');
+    downlaodButton.addEventListener('click', () => {
+      Swal.fire({
+        icon: "question",
+        title: "Apakah anda yakin?",
+        text: "Aplikasi akan didownload di penyimpanan handphone anda!",
+        showCancelButton: true,
+        reverseButtons: true,
+        confirmButtonText: "Download"
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location = "https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/tags/1.8.zip"
+        }
+      })
+    })
+  </script>
+</body>
+
+</html>
