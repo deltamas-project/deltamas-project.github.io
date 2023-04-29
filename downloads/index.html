@@ -127,11 +127,11 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script>
-    const v1 = "https://github.com/deltamas-project/deltamas-project.github.io/releases/download/1.0/absensi-deltamas.apk"
+    let appURL = "https://github.com/deltamas-project/deltamas-project.github.io/releases/download/1.1/absensi_deltamas.apk"
 
-    const versionApp = v1
+    let versionApp = 'v1.1'
 
-    const downlaodButton = document.querySelector('#download');
+    let downlaodButton = document.querySelector('#download');
     downlaodButton.addEventListener('click', () => {
       Swal.fire({
         icon: "question",
@@ -142,7 +142,7 @@
         confirmButtonText: "Download"
       }).then((result) => {
         if (result.isConfirmed) {
-          window.location = versionApp
+          window.location = appURL
         }
       })
     })
