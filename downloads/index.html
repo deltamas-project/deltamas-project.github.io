@@ -12,7 +12,7 @@
 <style>
   .card {
     width: 32rem;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .card .card-body {
@@ -70,7 +70,7 @@
                   <div class="">
                     App Version :
                   </div>
-                  <div class="">
+                  <div class="" id="appVersion">
                     1.0.0
                   </div>
                 </div>
@@ -127,12 +127,13 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script>
-    let appURL = "https://github.com/deltamas-project/deltamas-project.github.io/releases/download/1.1/absensi_deltamas.apk"
+    let appURL = "https://github.com/deltamas-project/deltamas-project.github.io/releases/download/1.1/absensi_deltamas.apk";
 
-    let versionApp = 'v1.1'
+    let versionApp = "v1.1";
+    document.querySelector("#appVersion").innerHTML = versionApp;
 
-    let downlaodButton = document.querySelector('#download');
-    downlaodButton.addEventListener('click', () => {
+    let downlaodButton = document.querySelector("#download");
+    downlaodButton.addEventListener("click", () => {
       Swal.fire({
         icon: "question",
         title: "Apakah anda yakin?",
@@ -142,10 +143,10 @@
         confirmButtonText: "Download"
       }).then((result) => {
         if (result.isConfirmed) {
-          window.location = appURL
+          window.location = appURL;
         }
-      })
-    })
+      });
+    });
   </script>
 </body>
 
