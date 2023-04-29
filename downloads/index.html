@@ -60,9 +60,7 @@
                   <div class="">
                     Last Updated :
                   </div>
-                  <div class="">
-                    12-05-2023 00:00:00
-                  </div>
+                  <div class="" id="versionTimestamp"></div>
                 </div>
               </li>
               <li class="list-group-item">
@@ -70,9 +68,7 @@
                   <div class="">
                     App Version :
                   </div>
-                  <div class="" id="appVersion">
-                    1.0.0
-                  </div>
+                  <div class="" id="versionApp"></div>
                 </div>
               </li>
               <li class="list-group-item">
@@ -130,7 +126,9 @@
     let appURL = "https://github.com/deltamas-project/deltamas-project.github.io/releases/download/1.1/absensi_deltamas.apk";
 
     let versionApp = "v1.1";
-    document.querySelector("#appVersion").innerHTML = versionApp;
+    let versionTimestamp = "2023-04-29 00:00:00";
+    document.querySelector("#versionApp").innerHTML = versionApp;
+    document.querySelector("#versionTimestamp").innerHTML = versionTimestamp;
 
     let downlaodButton = document.querySelector("#download");
     downlaodButton.addEventListener("click", () => {
