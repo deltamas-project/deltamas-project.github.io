@@ -58,17 +58,25 @@
               <li class="list-group-item">
                 <div class="d-flex justify-content-between">
                   <div class="">
-                    Last Updated :
+                    App Version :
                   </div>
-                  <div class="" id="versionTimestamp"></div>
+                  <div class="" id="versionApp"></div>
                 </div>
               </li>
               <li class="list-group-item">
                 <div class="d-flex justify-content-between">
                   <div class="">
-                    App Version :
+                    App Size :
                   </div>
-                  <div class="" id="versionApp"></div>
+                  <div class="" id="appSize"></div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between">
+                  <div class="">
+                    Last Updated :
+                  </div>
+                  <div class="" id="versionTimestamp"></div>
                 </div>
               </li>
               <li class="list-group-item">
@@ -136,14 +144,16 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script>
-    let appURL = "https://github.com/deltamas-project/deltamas-project.github.io/releases/download/v1.2/Absensi_Deltamas.apk";
+    const appURL = "https://github.com/deltamas-project/deltamas-project.github.io/releases/download/v1.2/Absensi_Deltamas.apk";
 
-    let versionApp = "v1.2";
-    let versionTimestamp = "2023-05-12 00:00:00";
+    const versionApp = "v1.2";
+    const appSize = "22 MB";
+    const versionTimestamp = "2023-05-12 00:00:00";
     document.querySelector("#versionApp").innerHTML = versionApp;
+    document.querySelector("#appSize").innerHTML = appSize;
     document.querySelector("#versionTimestamp").innerHTML = versionTimestamp;
 
-    let downlaodButton = document.querySelector("#download");
+    const downlaodButton = document.querySelector("#download");
     downlaodButton.addEventListener("click", () => {
       Swal.fire({
         icon: "question",
